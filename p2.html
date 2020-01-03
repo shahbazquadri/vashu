@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1" class="para">Lorem ipsum dolor sit amet.</h1>
+    <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis esse, quos a amet facere doloribus at laboriosam sequi maiores numquam. Veritatis a aliquid vitae neque repellendus, nostrum non quis eveniet?</p>  
+      <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis esse, quos a amet facere doloribus at laboriosam sequi maiores numquam. Veritatis a aliquid vitae neque repellendus, nostrum non quis eveniet?</p>
+<script>
+//selector
+let l;
+l=document.getElementById("head1");
+l=document.getElementById("head1").id;
+l=document.getElementById("head1").className;
+//to write content
+l=document.getElementById("head1").innerHTML="hello"; //we can add html tags too
+l=document.getElementById("head1").innerText="hii";
+l=document.getElementById("head1").textContent="heyy";
+
+
+l=document.getElementById("head1").innerHTML="<mark>CHUMMADAN</mark>";
+l=document.getElementById("head1").innerText="<mark>CHUMMADAN</mark>";
+l=document.getElementById("head1").textContent="<mark>CHUMMADAN</mark>";
+
+
+l=document.querySelector(".para");
+l=document.querySelector("#head1");
+l=document.querySelector("p").style.backgroundColor="red";
+l=document.querySelector("p").style.color="#fafafa";
+
+
+
+console.log(l);
+</script>
+
+</body>
+</html>
